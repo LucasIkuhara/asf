@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "asf"
+version = "0.1.0"
+description = "A CLI-based application intended to streamline directory alias creation with minimal effort."
+authors = ["Lucas Ikuhara <lri2911@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
