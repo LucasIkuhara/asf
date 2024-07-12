@@ -12,7 +12,7 @@ export ASF_HOME=/opt/asf
 asf() {
   TARGET=/tmp/asf_target
   python3 $ASF_HOME/asf.py "$@" && cd $(cat "$TARGET")
-  rm $TARGET
+  if [ -e $TARGET ]; then rm $TARGET; fi;
 }
 # ASF_END
 '''
