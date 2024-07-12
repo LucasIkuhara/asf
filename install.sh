@@ -1,7 +1,9 @@
 #!/bin/sh
 mkdir -p /opt/asf &&
 cd /opt/asf &&
-curl https://raw.githubusercontent.com/LucasIkuhara/asf/main/asf.py -o asf.py[[-z ~/.bashrc]] echo "wi"
+if [ ! -e /opt/asf/asf.py ]; then 
+curl https://raw.githubusercontent.com/LucasIkuhara/asf/main/asf.py -o asf.py;
+fi;
 
 # Add to (bash or other)rc
 BOOTSTRAP='''
