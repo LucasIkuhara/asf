@@ -1,5 +1,5 @@
 #!/bin/sh
-mkdir -p /opt/asf &&
+sudo mkdir -p /opt/asf &&
 cd /opt/asf &&
 if [ ! -e /opt/asf/asf.py ]; then 
 curl https://raw.githubusercontent.com/LucasIkuhara/asf/main/asf.py -o asf.py;
