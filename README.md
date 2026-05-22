@@ -30,3 +30,9 @@ To list all current shortcuts, use:
 ```sh
 asf -l
 ```
+
+To navigate interactively using [fzf](https://github.com/junegunn/fzf) through your asf shortucts, use:
+
+```sh
+asf -f
+```
