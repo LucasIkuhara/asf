@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo mkdir -p /opt/asf &&
-sudo cd /opt/asf/ &&
+cd /opt/asf/ &&
 if [ ! -e /opt/asf/asf.py ]; then 
 sudo curl https://raw.githubusercontent.com/LucasIkuhara/asf/main/asf.py -o asf.py;
 fi;
